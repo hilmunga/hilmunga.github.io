@@ -4,7 +4,7 @@ import axios from 'axios';
 //refactored version
 
 const API_KEY = "postmanrulz"; // Replace with a valid API key
-const API_URL = "https://proxy.corsfix.com/?https://library-api.postmanlabs.com/books";
+const API_URL = "const API_URL = "https://cors-anywhere.herokuapp.com/https://library-api.postmanlabs.com/books";
 
 const CreateData = () => {
   const [formData, setFormData] = useState({
